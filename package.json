@@ -1,0 +1,69 @@
+{
+  "name": "pkg-sandbox",
+  "version": "1.0.0",
+  "description": "Test your npm package like it's published, makes your test environment behave like your package was already live on the npm registry",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "sandbox": "dist/cli.js"
+  },
+  "scripts": {
+    "test": "npm run build && npx vitest run --reporter verbose --coverage --silent false",
+    "format": "prettier --write **/*{.ts,.js}",
+    "format:check": "prettier --check **/*{.ts,.js}",
+    "lint": "eslint src/**/*{.ts,.js}",
+    "build": "npx tsup"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "sandbox",
+    "package sandbox",
+    "npm",
+    "pack",
+    "package",
+    "install",
+    "test",
+    "publish-simulation",
+    "node_modules"
+  ],
+  "author": "Yuki",
+  "homepage": "https://github.com/yukiakai212/pkg-sandbox",
+  "engines": {
+    "node": ">= 16"
+  },
+  "maintainers": [
+    {
+      "name": "Yuki_akai",
+      "homepage": "https://github.com/yukiakai212"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukiakai212/pkg-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yukiakai212/pkg-sandbox/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5",
+    "@eslint/js": "^9.30.1",
+    "@vitest/coverage-v8": "^3.2.4",
+    "dotenv": "^17.0.1",
+    "eslint": "^9.30.0",
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@yukiakai/find-up": "^1.0.0",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "consola": "^3.4.2"
+  }
+}

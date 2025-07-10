@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+	"resolveJsonModule": true,
+    "module": "nodenext",     
+    "moduleResolution": "nodenext", 
+    "esModuleInterop": true,
+	"strict": true,
+	"declaration": true,
+	"forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules"]
+}
