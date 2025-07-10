@@ -23,11 +23,16 @@
 ## 🚀 Install & Use
 
 ```bash
+npm install --save-dev pkg-sandbox
+```
+
+Then you can use it with the command:
+
+```bash
 npx sandbox [options]
 
-#default install 
+#basic use
 npx sandbox
-
 ```
 
 Then use your library in tests exactly like real-world usage:
@@ -101,6 +106,12 @@ It does **not** run your test cases — it just sets up a real-world install so 
 
 ---
 
+## 📦 Changelog
+
+See full release notes in [CHANGELOG.md][changelog-url]
+
+---
+
 ## 📄 License
 
 MIT [Yuki Akai](https://github.com/yukiakai212/)
@@ -115,3 +126,4 @@ MIT [Yuki Akai](https://github.com/yukiakai212/)
 [github-url]: https://github.com/yukiakai212/pkg-sandbox/
 [codecov-image]: https://codecov.io/gh/yukiakai212/pkg-sandbox/branch/main/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/yukiakai212/pkg-sandbox
+[changelog-url]: https://github.com/yukiakai212/pkg-sandbox/blob/main/CHANGELOG.md
