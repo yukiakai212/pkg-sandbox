@@ -1,6 +1,6 @@
 {
   "name": "pkg-sandbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test your npm package like it's published, makes your test environment behave like your package was already live on the npm registry",
   "type": "module",
   "main": "dist/cli.js",
@@ -16,7 +16,7 @@
   },
   "files": [
     "dist/*",
-	"CHANGELOG.md"
+    "CHANGELOG.md"
   ],
   "keywords": [
     "sandbox",
