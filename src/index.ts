@@ -29,8 +29,9 @@ export const installPackage = (basedir: string | undefined, agent: Agent | undef
   }
   const agentInstall = agent || detectAgent(pathInstall);
   if (agentInstall === 'unknown') {
-    throw new Error(`❌ Unable to detect the package manager automatically.
-		Please specify it explicitly using the --agent <package-manager> option.`);
+    throw new Error(
+      '❌ Unable to detect the package manager automatically. Please specify it explicitly using the --agent <package-manager> option.',
+    );
   }
   if (!isAgent(agentInstall) || agentInstall === 'deno') {
     throw new Error('This package manager is not supported.');
