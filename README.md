@@ -16,7 +16,7 @@
 
 - ✅ Test your package installation using real install behavior
 - ✅ Allows you to use normal imports in your test cases, just like if the package were published
-
+- ✅ Detects install failures immediately
 
 ---
 
@@ -100,7 +100,7 @@ It does **not** run your test cases — it just sets up a real-world install so 
 ## 📌 When to use
 
 - Before publishing your package
-- In CI/CD to ensure it installs cleanly — this tests the actual install behavior
+- In CI/CD to catch install bugs early — this tests the actual install behavior
 - To validate `exports`, `types`, and `package.json` correctness as seen by real users
 - Catch missing files, broken exports, or invalid types — before your users do.
 
