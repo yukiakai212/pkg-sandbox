@@ -6,13 +6,13 @@
 [![Build Status][github-build-url]][github-url]
 [![codecov][codecov-image]][codecov-url]
 
-> 📦 Test your npm package as if it was published.
+> Test your npm package as if it was published.
 
 **No more mocks. No more local imports. This tool makes your test environment behave like your package was already live on the npm registry.**
 
 ---
 
-## ✨ What it does
+## What it does
 
 - ✅ Test your package installation using real install behavior
 - ✅ Allows you to use normal imports in your test cases, just like if the package were published
@@ -20,7 +20,7 @@
 
 ---
 
-## 🚀 Install & Use
+## Install & Use
 
 ```bash
 npm install --save-dev pkg-sandbox
@@ -42,7 +42,7 @@ import { yourFn } from 'your-lib-name';
 ```
 ---
 
-## 🧪 Example workflow (Vitest)
+## Example workflow (Vitest)
 
 ```ts
 // test/my-lib.test.ts
@@ -57,7 +57,7 @@ You can now test everything just like real users would.
 
 ---
 
-## 📦 Why not use ./dist?
+## Why not use ./dist?
 
 Because they don't reflect real publish behavior.
 
@@ -72,7 +72,7 @@ It does **not** run your test cases — it just sets up a real-world install so 
 
 ---
 
-## 📑 CLI Options
+## CLI Options
 
 | Flag             | Description                                            |
 |------------------|--------------------------------------------------------|
@@ -82,7 +82,7 @@ It does **not** run your test cases — it just sets up a real-world install so 
 
 ---
 
-## 🛠 Support matrix
+## Support matrix
 
 | Package Manager  | Supported | Notes                                                 |
 |------------------|-----------|-------------------------------------------------------|
@@ -97,7 +97,7 @@ It does **not** run your test cases — it just sets up a real-world install so 
 
 ---
 
-## 📌 When to use
+## When to use
 
 - Before publishing your package
 - In CI/CD to catch install bugs early — this tests the actual install behavior
@@ -106,13 +106,13 @@ It does **not** run your test cases — it just sets up a real-world install so 
 
 ---
 
-## 📦 Changelog
+## Changelog
 
 See full release notes in [CHANGELOG.md][changelog-url]
 
 ---
 
-## 📄 License
+## License
 
 MIT [Yuki Akai](https://github.com/yukiakai212/)
 
