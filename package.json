@@ -62,7 +62,7 @@
     "vitest": "^4.0.15"
   },
   "dependencies": {
-    "@yukiakai/find-up": "^1.1.2",
+    "@yukiakai/find-up": "^1.1.6",
     "chalk": "^5.5.0",
     "commander": "^14.0.0",
     "consola": "^3.4.2"
