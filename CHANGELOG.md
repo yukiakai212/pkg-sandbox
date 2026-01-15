@@ -1,5 +1,11 @@
 # pkg-sandbox
 
+## 1.0.5
+
+### Patch Changes
+
+- 7d0182a: Using Trusted Publisher
+
 ## 1.0.2
 
 ### Patch Changes
